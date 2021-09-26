@@ -1,0 +1,66 @@
+% =========================================================================== %
+% Preamble                                                                    %
+% =========================================================================== %
+
+\documentclass[dvipsnames, 12pt]{article}
+\usepackage[utf8]{inputenc}
+
+% Set paper geometry
+\usepackage[letterpaper, margin=1.87cm]{geometry}
+
+% Must include this before setting title and author
+\usepackage{findlay}
+\usepackage{fancyhdr}
+
+\title{NSERC PGS-D Proposal}
+\author{William Findlay}
+\date{\today}
+
+\lhead{\small NSERC PIN \#576026}
+\chead{\small\itshape Outline of Proposed Research}
+\rhead{\small\itshape\MyAuthor}
+\pagestyle{fancy}
+
+\setlength{\headheight}{13.6pt}
+\setlength{\footskip}{24pt}
+
+% Add bibliography:
+\addbibresource{proposal.bib}
+
+% To set sans serif font:
+%\renewcommand{\familydefault}{\sfdefault}
+
+% =========================================================================== %
+% Document                                                                    %
+% =========================================================================== %
+
+\begin{document}
+
+% Reset page numbering
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Uncomment for 1.5 spacing:
+%\onehalfspacing
+
+
+Hello
+% TODO: include main document sections here
+
+
+% Bibliography
+\clearpage
+\setcounter{page}{1}
+\chead{\small\itshape Bibliography}
+\printbibliography
+
+% Contributions and Statements
+\clearpage
+\setcounter{page}{1}
+\chead{\small\itshape Contributions and Statements}
+
+Foo
+
+\end{document}
+
+% vim:syn=tex
